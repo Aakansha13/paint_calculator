@@ -1,0 +1,14 @@
+/.idea
+/.idea/*
+.DS_Store
+.project
+*.prefs
+*.iml
+*.ipr
+*.iws
+*.pyc
+*.log
+/tmp/*
+venv/.*
+venv
+**/*.egg-info

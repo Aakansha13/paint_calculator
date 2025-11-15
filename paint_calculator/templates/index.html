@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block page_content %}
+        <p class="lead">Enter the number of rooms</p>
+        <form action="dimensions" method="get">
+            <input type="number" name="rooms" min="1" required/>
+            <input type="submit" />
+        </form>
+{% endblock %}
+
+
